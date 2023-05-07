@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+	</head>
+
+	<body class="body">
+            <h1>Household Todolist</h1>
+			
+
+            <div class = "home_div">
+                <h2>Dashboard</h2>
+                <% if (tasks.length === 0) { %>
+                    <p align ="center"> All Tasks Completed.</p>
+                <% } else { %>
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>Task</th>
+                            <th>Due Date</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                            <th></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% tasks.forEach(function(task) { %>
+                            <% if (task.assigneeId !== null ) { %>
+                                <tr>
+                                <td><%= task.name %></td>
+                                <td><%= task.dueDate %></td>
+                                <td><%= task.priority %></td>
+                                <% if (task.completed === false) { %>
+                                    <td>Incomplete</td>
+                                <% } else { %>
+                                    <td>Completed!</td>
+                                <% } %>
+                                <td>
+                                <% if (task.completed === false) { %>
+                                    <form action='/api/tasksC/<%=task._id %>' method="POST">
+                                        <input type="hidden" name="complete_button" value="/home.html">
+                                        <button type="submit" class = "button_internal">Complete</button>                              
+                                    </form>
+                                    
+                                <% } else { %>
+                                    <p>Done</p>
+                                    <% } %>
+                                </td>
+                                </tr>
+                            <% } %>
+                        <% }) %>
+                    </tbody>
+                </table>
+                <% } %>
+            </div>
+
+            <div class = "bonus_div">
+                <h2>Bonus Tasks</h2>
+                <% if (tasks.length === 0) { %>
+                    <p align ="center"> No Bonous Tasks.</p>
+                <% } else { %>
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>Task</th>
+                            <th>Due Date</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% all_tasks.forEach(function(all_task) { %>
+                            <% if (all_task.assigneeId == null ) { %>
+                                <tr>
+                                    <td><%= all_task.name %></td>
+                                    <td><%= all_task.dueDate %></td>
+                                    <td><%= all_task.priority %></td>
+                                    <td>Incomplete</td>
+                                <td>
+                                    <form action='/api/tasks/<%= all_task._id %>/<%= myData._id %>' method="POST">
+                                        <input type="hidden" name="assignMe_button" value="/home.html">
+                                        <button type="submit" class = "button_internal">Claim task!</button>                              
+                                    </form>
+                                </td>
+                                </tr>
+                            <% } %>
+                        <% }) %>
+                    </tbody>
+                </table>
+                <% } %>
+            </div>
+
+        <!-- if clause -->
+            <div>
+                <button type="button" class="button_redeem" onclick="window.location.href='rewards.html'">Redeem Points</button>
+            </div>
+
+            <div class="return_div">
+                <button type="button" class="button_return" onclick="window.location.href='login.html'">Log Out</button>
+            </div>
+            <div class="noti_div">
+                <button type="button" class="button_return" onclick="window.location.href='notifications.html'">Notifications</button>
+            </div>
+            <!-- <div class="task_assign_div">
+                <button type="button" class="button_task_assign" onclick="window.location.href='tasks.html'">Assign Task</button>
+            </div> -->
+
+            <!-- if clause -->
+            <% if (myData.isTaskManager === true) { %>
+                <div>
+                    <button type="button" class="button_manage" onclick="window.location.href='manage.html'">Manage</button>
+                </div>
+                <% } %>
+	</body>
+	
+
+
+</html>

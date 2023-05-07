@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+
+	<body class="body">
+            <h1>Household Todolist</h1>
+			
+
+            <div class = "container_notification">
+                <h2>Pending Notifications</h2>
+                <% if (notifications.length === 0) { %>
+                    <p align ="center"> No notifications at this time.</p>
+                <% } else { %>
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Age</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% notifications.forEach(function(notification) { %>
+                            <%  if (notification.isRead === false)  { %>
+                                <tr>
+                                <td><%= notification.title %></td>
+                                <td><%= notification.description %></td>
+                                <td><%= new Date(notification.createdAt).toISOString().substr(0, 10) %></td>
+                                <td>
+                                    
+                                    <form action='/api/notifications/<%= notification._id %>' method="POST">
+                                        <input type="hidden" name="read_button"  value="/notifications.html">
+                                        <button type="submit" class = "button_internal">Mark read</button>                              
+                                    </form>
+                                    
+                                </td>
+                                </tr>
+                            <% } %>
+                        <% }); %>
+                    </tbody>
+                </table>
+                <% } %>
+            </div>
+
+        <!-- if clause -->
+            <div class = "container_notification2">
+                <h2>Read</h2>
+                <% if (notifications.length === 0) { %>
+                    <p align ="center"></p>
+                <% }else { %>
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Age</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% notifications.forEach(function(notification) { %>
+                            <%  if (notification.isRead === true)  { %>
+                                <tr>
+                                <td><%= notification.title %></td>
+                                <td><%= notification.description %></td>
+                                <td><%= new Date(notification.createdAt).toISOString().substr(0, 10) %></td>
+                                <td>
+                                    <form action='api/notification/<%= notification._id %>/delete' method="POST">
+                                        <input type="hidden" name="delete_button" value="/notifications.html">
+                                        <button type="submit" class = "button_internal">Delete</button>                              
+                                    </form>
+                                </td>
+                                </tr>
+                            <% } %>
+                        <% }); %>
+                    </tbody>
+                </table>
+                <% } %>
+            </div>
+
+            <div class="return_div">
+                <button type="button" class="button_return" onclick="window.location.href='/home.html'">Home</button>
+            </div>
+
+	</body>
+	
+    <script>
+  async function markNotificationAsRead(notificationId) {
+    try {
+      await axios.put(`/api/notifications/${notificationId}`);
+      // handle success response
+    } catch (error) {
+      // handle error response
+    }
+  }
+</script>
+
+</html>

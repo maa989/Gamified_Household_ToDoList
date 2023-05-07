@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Add User</title>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+
+	<body class="body">
+            <h1>Household Todolist</h1>
+			
+
+            <div class = "container_signup">
+                <h2>Add User!</h2>
+                <form method="POST" action="api/users" id="user_form">
+                    <div>
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="password">New Password:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div>
+                        <label for="points">Points:</label>
+                        <input type="number" id="points" name="points">
+                    </div>
+                    <div>
+                        <label for="ismanager">Task Manger ?</label>
+                        <input type="checkbox" id="ismanager" name="isTaskManager">
+                    </div>
+                    
+                    <input type="hidden" name="householdId" value="<%= myData.householdId %>">
+                    
+                    
+                    
+                    <input type="hidden" name="add_user_button" value="/manage.html">
+                    <button type="submit" class="add_user_button">Add User</button>
+                </form>
+
+                
+
+            </div>
+
+            <div class="return_div">
+                <button type="button" class="button_return" onclick="window.location.href='/home.html'">Home</button>
+            </div>
+	</body>
+
+	
+
+
+</html>

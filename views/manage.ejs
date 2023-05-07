@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+
+	<body class="body">
+	
+            <h1>Household Todolist</h1>
+			
+
+            <div class = "user_div">
+                <h2>User List</h2>
+                <% if (users.length === 0) { %>
+                    <p align ="center"> No data available.</p>
+                <% } else { %>
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>First_Name</th>
+                            <th>Last_Name</th>
+                            <th></th>
+                            <th></th>
+    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% users.forEach(function(user) { %>
+                            <tr>
+                            <td><%= user.firstName %></td>
+                            <td><%= user.lastName %></td>
+                            <td>
+                                <div class="edit_button">
+                                    <button type="button" class="button_internal" onclick="window.location.href='/edit_users/<%= user._id%>/edit.html'">Edit</button>
+                                </div>
+                            </td>
+                            <td>
+                                <% if(user._id !== myData._id) { %>
+                                    <form action='/api/user/<%=user._id %>/delete' method="POST">
+                                        <input type="hidden" name="delete_button" value="/manage.html">
+                                        <button type="submit" class = "button_internal">Delete</button>                              
+                                    </form>
+                                <% } %>
+                            </td>
+                            </tr>
+                        <% }) %>
+                    </tbody>
+                </table>
+                <% } %>
+                <div>
+                    <button type="button" class="add_user_button" onclick="window.location.href='/add_users.html'">Add User!</button>
+                </div>
+            </div>
+
+            <div class = "tasks_div">
+                <h2>Tasks List</h2>
+                <% if (tasks.length === 0) { %>
+                    <p align ="center"> No data available.</p>
+                <% } else { %>
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>Task</th>
+                            <th>Due Date</th>
+                            <th>Status</th>
+                            <th></th>
+                            <th></th>
+    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% tasks.forEach(function(task) { %>
+                            <tr>
+                            <td><%= task.name %></td>
+                            <td><%= task.dueDate %></td>
+                            <% if (task.completed === false) { %>
+                                <td>Incomplete</td>
+                            <% } else { %>
+                                <td>Completed!</td>
+                            <% } %>
+                            <td>
+                                <div class="edit_button">
+                                    <button type="button" class="button_internal" onclick="window.location.href='/edit_tasks/<%= task._id%>/edit.html'">Edit</button>
+                                </div>
+                            </td>
+                            <td>
+                                <form action='/api/task/<%=task._id %>/delete' method="POST">
+                                    <input type="hidden" name="delete_button" value="/manage.html">
+                                    <button type="submit" class = "button_internal">Delete</button>                              
+                                </form>
+                            </td>
+                            </tr>
+                        <% }) %>
+                    </tbody>
+                </table>
+                <% } %>
+                <div>
+                    <button type="button" class="add_user_button" onclick="window.location.href='/add_tasks.html'">Assign Task!</button>
+                </div>
+            </div>
+        <!-- if clause -->
+            <div>
+                <button type="button" class="button_return" onclick="window.location.href='home.html'">Home</button>
+            </div>
+	</body>
+	
+
+
+</html>

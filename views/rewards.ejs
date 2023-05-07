@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tasks</title>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+
+	<body class="body">
+            <h1>Household Todolist</h1>
+            <h2 style = "text-align:center; color:#dc2222">Balance :<%= myData.points%> </h2>
+			
+
+            <div class = "container_reward">
+                <h2>Rewards</h2>
+                <% if (rewards.length === 0) { %>
+                    <p align ="center"> Add Reward.</p>
+                <% } else { %>
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>Reward</th>
+                            <th>Points</th>
+                            <th>Redeem</th>
+                            <% if (myData.isTaskManager === true) { %>
+                            <th></th>
+                            <th></th>
+                            <% } %>
+    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% rewards.forEach(function(reward) { %>
+                            <tr>
+                            <td><%= reward.name %></td>
+                            <td><%= reward.points %></td>
+                            <td>
+                                <form action='/api/redeem/<%=reward._id %>/<%=myData._id%>' method="POST">
+                                    <input type="hidden" name="redeem_button" value="/notifications.html">
+                                    <button type="submit" class = "button_internal">Redeem</button>                              
+                                </form>
+                            </td>
+                            <% if (myData.isTaskManager === true) { %>
+                                <td>
+                                    <div class="edit_button">
+                                        <button type="button" class="button_internal" onclick="window.location.href='/edit_rewards/<%= reward._id%>/edit.html'">Edit</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <form action='/api/reward/<%=reward._id %>/delete' method="POST">
+                                        <input type="hidden" name="delete_button" value="/rewards.html">
+                                        <button type="submit" class = "button_internal">Delete</button>                              
+                                    </form>
+                                </td>
+                            <% } %>
+                            </tr>
+                        <% }) %>
+                    </tbody>
+                </table>
+                <% } %>
+            </div>
+
+            <% if (myData.isTaskManager === true) { %>
+                <div >
+                    <button type="button" class="add_reward_button" onclick="window.location.href='add_rewards.html'">Add Reward</button>
+                </div>
+            <% } %>
+            <div class="return_div">
+                <button type="button" class="button_return" onclick="window.location.href='home.html'">Home</button>
+            </div>
+	</body>
+
+	
+
+
+</html>
