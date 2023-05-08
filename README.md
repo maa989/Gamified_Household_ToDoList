@@ -6,10 +6,13 @@ This project is a web application for managing household tasks. It provides a ce
 ## Installation
 To install this application, follow these steps:
 
-Clone the repository to your local machine.
-Navigate to the project directory.
-Run npm install to install the required dependencies from the package.json file.
-Usage
+1- Clone the repository to your local machine.
+
+2-Navigate to the project directory.
+
+3- Run npm install to install the required dependencies from the package.json file.
+
+## Usage
 To start the application, simply run "node project.js" in your terminal. This will start the Node.js server and launch the application.
 
 Once the application is running, you can access it in your web browser by navigating to http://localhost:3000. From there, you can create and manage household tasks.
