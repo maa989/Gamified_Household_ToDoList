@@ -1,9 +1,9 @@
 # Gamified_Household_ToDoList
 
-##Description
+## Description
 This project is a web application for managing household tasks. It provides a centralized platform for managing tasks, assigning them to household members, setting deadlines, and tracking progress. The application also provides notifications and reminders to ensure that tasks are completed on time.
 
-##Installation
+## Installation
 To install this application, follow these steps:
 
 Clone the repository to your local machine.
@@ -14,7 +14,7 @@ To start the application, run npm start. This will start the Node.js server and 
 
 Once the application is running, you can access it in your web browser by navigating to http://localhost:3000. From there, you can create and manage household tasks.
 
-##Files
+## Files
 The following is a list of the major files in this repository:
 
 app.js: This is the main Node.js application file. It defines the routes and middleware for the application.
@@ -22,7 +22,7 @@ package.json: This file contains the project's dependencies and other metadata.
 public/: This directory contains the static files (e.g., CSS, JavaScript, images) for the application.
 views/: This directory contains the EJS templates for the application.
 
-##Configuration
+## Configuration
 This application requires a few configuration variables to be set in order to work properly:
 
 DATABASE_URL: The URL for the MongoDB database used by the application.
