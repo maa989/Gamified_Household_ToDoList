@@ -35,7 +35,7 @@ mongoDB/: This directory contains a copy of the backend collections used.
 ## Configuration
 This application requires a few configuration variables to be set in order to work properly:
 
-database config (This can be edited in the householdToDoList class constructor:
+database config (This can be edited in the householdToDoList class constructor):
 
 this.config = {
             "host": "127.0.0.1",
