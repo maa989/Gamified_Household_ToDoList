@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "36b36f35-3269-4505-a14c-f1bf9380e6f7",
+		"name": "Misc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27180187"
+	},
+	"item": [
+		{
+			"name": "Ping",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

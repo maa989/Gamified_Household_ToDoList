@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "5eb12828-e7b4-45b6-bac1-ad0ab41fc452",
+		"name": "Notifications",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27180187"
+	},
+	"item": [
+		{
+			"name": "Get notifcations by user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/notifications?userId=644f3d831bb14d132ea40cde",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"notifications"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "644f3d831bb14d132ea40cde"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get notification by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/notification/:notificationId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"notification",
+						":notificationId"
+					],
+					"variable": [
+						{
+							"key": "notificationId",
+							"value": "644f27155d0e2eed40b491b2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Notification",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "New Chess board bought",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "...",
+							"type": "text"
+						},
+						{
+							"key": "userId",
+							"value": "644f3d831bb14d132ea40cde",
+							"type": "text"
+						},
+						{
+							"key": "daysRecurring",
+							"value": "10",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/notifications/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"notifications",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mark notification as read",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/notifications/:notificationId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"notifications",
+						":notificationId"
+					],
+					"variable": [
+						{
+							"key": "notificationId",
+							"value": "644f27155d0e2eed40b491b2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete notification",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/notification/:notificationId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"notification",
+						":notificationId"
+					],
+					"variable": [
+						{
+							"key": "notificationId",
+							"value": "6451827eba2326f59c00151e"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monitor tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/monitor/:userId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"monitor",
+						":userId"
+					],
+					"variable": [
+						{
+							"key": "userId",
+							"value": "644f3d831bb14d132ea40cde"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

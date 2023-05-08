@@ -1,0 +1,343 @@
+{
+	"info": {
+		"_postman_id": "8d302314-6f45-45d9-a1f4-1c1314236d35",
+		"name": "Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27180187"
+	},
+	"item": [
+		{
+			"name": "Get users by household",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users?householdId=613fde5b5a4b4f2c4f10d7a1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "householdId",
+							"value": "613fde5b5a4b4f2c4f10d7a1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/user/:userId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						":userId"
+					],
+					"variable": [
+						{
+							"key": "userId",
+							"value": "644f0cd45d0e2eed40b4916b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/user/:userId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						":userId"
+					],
+					"variable": [
+						{
+							"key": "userId",
+							"value": "644f4a5a30732c25e9761ca5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fname",
+							"value": "Magnus",
+							"type": "text"
+						},
+						{
+							"key": "lname",
+							"value": "Carlson",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mgncr@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpass",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get userID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fname",
+							"value": "Hikaru",
+							"type": "text"
+						},
+						{
+							"key": "lname",
+							"value": "Nakamura",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mgncr@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "householdId",
+							"value": "644f3af3b9b913d30bf879b2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/userId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"userId"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add User to household",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fname",
+							"value": "Magnus",
+							"type": "text"
+						},
+						{
+							"key": "lname",
+							"value": "Carlson",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mgncr@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpass",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fname",
+							"value": "testacre",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "lname",
+							"value": "tese",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "test50@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "231144",
+							"type": "text"
+						},
+						{
+							"key": "points",
+							"value": "41",
+							"type": "text"
+						},
+						{
+							"key": "isTaskManager",
+							"value": "false",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/:userId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						":userId"
+					],
+					"variable": [
+						{
+							"key": "userId",
+							"value": "644f42f8f54c76a92ecd2011"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "hnik@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "testpass2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "mgncr@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpass2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

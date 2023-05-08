@@ -1,0 +1,344 @@
+{
+	"info": {
+		"_postman_id": "cd5b0481-101e-4868-b21c-f83b53bc39cc",
+		"name": "Tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27180187"
+	},
+	"item": [
+		{
+			"name": "Get tasks by household/user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/tasks?householdId=613fde5b5a4b4f2c4f10d7a1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "householdId",
+							"value": "613fde5b5a4b4f2c4f10d7a1"
+						},
+						{
+							"key": "userId",
+							"value": "644f0cd45d0e2eed40b4916f",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get task by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/task/:taskId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"task",
+						":taskId"
+					],
+					"variable": [
+						{
+							"key": "taskId",
+							"value": "6450700b90a3e3ec70b76e44"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/task/:taskId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"task",
+						":taskId"
+					],
+					"variable": [
+						{
+							"key": "taskId",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add task to household",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fname",
+							"value": "Hikaru",
+							"type": "text"
+						},
+						{
+							"key": "lname",
+							"value": "Nakamura",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "practice chess part 5",
+							"type": "text"
+						},
+						{
+							"key": "dueDate",
+							"value": "2023-05-02",
+							"type": "text"
+						},
+						{
+							"key": "priority",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "householdId",
+							"value": "644f3af3b9b913d30bf879b2",
+							"type": "text"
+						},
+						{
+							"key": "isRecurring",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "daysRecurring",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tasks/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasks",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fname",
+							"value": "Hikaru",
+							"type": "text"
+						},
+						{
+							"key": "fname",
+							"value": "REMOVE_USER",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "lname",
+							"value": "Nakamura",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "practice chess",
+							"type": "text"
+						},
+						{
+							"key": "dueDate",
+							"value": "2023-05-09",
+							"type": "text"
+						},
+						{
+							"key": "priority",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "householdId",
+							"value": "644f3af3b9b913d30bf879b2",
+							"type": "text"
+						},
+						{
+							"key": "isRecurring",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "daysRecurring",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "completed",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "completionDate",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tasks/:taskId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasks",
+						":taskId"
+					],
+					"variable": [
+						{
+							"key": "taskId",
+							"value": "6451fbba4f0744f1212b49a2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Assign user to task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/tasks/:taskId/:userId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasks",
+						":taskId",
+						":userId"
+					],
+					"variable": [
+						{
+							"key": "taskId",
+							"value": "6451fbba4f0744f1212b49a2"
+						},
+						{
+							"key": "userId",
+							"value": "644f3d831bb14d132ea40cde"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Unassign user from task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/tasks/r/:taskId/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasks",
+						"r",
+						":taskId",
+						""
+					],
+					"variable": [
+						{
+							"key": "taskId",
+							"value": "6451fbba4f0744f1212b49a2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Complete task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/tasksC/:taskId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasksC",
+						":taskId"
+					],
+					"variable": [
+						{
+							"key": "taskId",
+							"value": "6450700b90a3e3ec70b76e44"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
