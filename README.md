@@ -28,7 +28,7 @@ public/: This directory contains the static files (e.g., CSS, JavaScript, images
 
 views/: This directory contains the EJS templates for the application.
 
-postman/: This directory contains the organized postman collections used to test the APIs
+postman/: This directory contains the organized postman API collections used to test the APIs
 
 mongoDB/: This directory contains a copy of the backend collections used.
 
