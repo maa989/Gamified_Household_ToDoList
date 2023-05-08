@@ -1,0 +1,864 @@
+[{
+  "_id": {
+    "$oid": "644f27155d0e2eed40b491ad"
+  },
+  "title": "New task assigned",
+  "description": "You have been assigned a new task: Clean the living room",
+  "createdAt": {
+    "$date": "2023-04-30T15:20:00.000Z"
+  },
+  "userId": "644f0cd45d0e2eed40b4916b",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "644f27155d0e2eed40b491ae"
+  },
+  "title": "Task overdue",
+  "description": "The task: Wash the dishes, is now overdue",
+  "createdAt": {
+    "$date": "2023-04-28T10:15:00.000Z"
+  },
+  "userId": "644f0cd45d0e2eed40b4916c",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "644f27155d0e2eed40b491af"
+  },
+  "title": "Task due soon",
+  "description": "The task: Buy groceries, is due tomorrow",
+  "createdAt": {
+    "$date": "2023-04-30T09:30:00.000Z"
+  },
+  "userId": "644f0cd45d0e2eed40b4916d",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "644f27155d0e2eed40b491b0"
+  },
+  "title": "Task overdue",
+  "description": "The task: Vacuum the bedroom, is now overdue",
+  "createdAt": {
+    "$date": "2023-04-25T14:00:00.000Z"
+  },
+  "userId": "644f0cd45d0e2eed40b4916e",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "644f27155d0e2eed40b491b1"
+  },
+  "title": "New task assigned",
+  "description": "You have been assigned a new task: Water the plants",
+  "createdAt": {
+    "$date": "2023-04-30T13:45:00.000Z"
+  },
+  "userId": "644f0cd45d0e2eed40b4916f",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "644f27155d0e2eed40b491b2"
+  },
+  "title": "Task due soon",
+  "description": "The task: Mow the lawn, is due in 2 days",
+  "createdAt": {
+    "$date": "2023-04-28T09:00:00.000Z"
+  },
+  "userId": "644f0cd45d0e2eed40b49170",
+  "isRead": true
+},{
+  "_id": {
+    "$oid": "644f27155d0e2eed40b491b3"
+  },
+  "title": "New task assigned",
+  "description": "You have been assigned a new task: Clean the bathroom",
+  "createdAt": {
+    "$date": "2023-04-30T16:30:00.000Z"
+  },
+  "userId": "644f0cd45d0e2eed40b49171",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6451f37ad84674be31b7b2e6"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Hikaru has claimed 'New Chess board' for 30 points",
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2023-05-03T05:39:06.729Z"
+  }
+},{
+  "_id": {
+    "$oid": "6451f37ad84674be31b7b2e8"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Hikaru has claimed 'New Chess board' for 30 points",
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2023-05-03T05:39:06.842Z"
+  }
+},{
+  "_id": {
+    "$oid": "6452166f2ce692384e3c4210"
+  },
+  "title": "'practice chess part 2' has been created",
+  "description": "'The task 'practice chess part 2' has been created and is unassigned and is due on Mon May 08 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2023-05-03T08:08:15.064Z"
+  }
+},{
+  "_id": {
+    "$oid": "645323327e5cabae5f41758b"
+  },
+  "title": "'213' has been created",
+  "description": "'The task '213' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T03:14:58.996Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "645323337e5cabae5f41758c"
+  },
+  "title": "'213' has been created",
+  "description": "'The task '213' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T03:14:59.009Z"
+  },
+  "userId": "6453209e717e53e14e48e1ff",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "645347a95075b4a7fee43d72"
+  },
+  "title": "'21345678' has been created",
+  "description": "'The task '21345678' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T05:50:33.933Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "645347a95075b4a7fee43d73"
+  },
+  "title": "'21345678' has been created",
+  "description": "'The task '21345678' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T05:50:33.952Z"
+  },
+  "userId": "6453209e717e53e14e48e1ff",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "645375f5ea8fc9f4709038b6"
+  },
+  "title": "'test1' has been created",
+  "description": "'The task 'test1' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T09:08:05.021Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "645377e1673709035d1b68bb"
+  },
+  "title": "The reward 'test3434' has been claimed!",
+  "description": "Magnus has claimed 'test3434' for 1 points",
+  "createdAt": {
+    "$date": "2023-05-04T09:16:17.253Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f333e9ee50849efbbbf0"
+  },
+  "title": "'testttt' has been created",
+  "description": "'The task 'testttt' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:02:27.742Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f3dee9ee50849efbbbf5"
+  },
+  "title": "The reward 'testtt' has been claimed!",
+  "description": "Magnus has claimed 'testtt' for 1 points",
+  "createdAt": {
+    "$date": "2023-05-04T18:05:18.945Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f50ee9ee50849efbbbfc"
+  },
+  "title": "'ferferf' has been created",
+  "description": "'The task 'ferferf' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:10:22.994Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f651fda95b307906459f"
+  },
+  "title": "'wdfwefwef' has been created",
+  "description": "'The task 'wdfwefwef' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:15:45.761Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f750fda95b30790645a3"
+  },
+  "title": "'testtask' has been created",
+  "description": "'The task 'testtask' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:20:00.490Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f76efda95b30790645a8"
+  },
+  "title": "'qwevf' has been created",
+  "description": "'The task 'qwevf' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:20:30.268Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f893c3799dfb4a1f4e10"
+  },
+  "title": "'qwerg' has been created",
+  "description": "'The task 'qwerg' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:25:23.708Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f8f10cac8d098c0fbeff"
+  },
+  "title": "'edwfe' has been created",
+  "description": "'The task 'edwfe' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:26:57.295Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f95db6438afe46590000"
+  },
+  "title": "'cfgdfbhgjh' has been created",
+  "description": "'The task 'cfgdfbhgjh' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:28:45.447Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453f9a3a61b51211103c5b9"
+  },
+  "title": "'qwcwef' has been created",
+  "description": "'The task 'qwcwef' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:29:55.162Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453fa0b1444d6825e414828"
+  },
+  "title": "'tfefwef' has been created",
+  "description": "'The task 'tfefwef' has been created and is unassigned  and is due on Invalid Date",
+  "createdAt": {
+    "$date": "2023-05-04T18:31:39.288Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453faaeef1b0fde0dc82cea"
+  },
+  "title": "'ewfrgthgn' has been created",
+  "description": "'The task 'ewfrgthgn' has been created and is unassigned  and is due on Sat May 20 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-04T18:34:22.776Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453fabcef1b0fde0dc82cee"
+  },
+  "title": "'wevergegr' has been created",
+  "description": "'The task 'wevergegr' has been created and is unassigned  and is due on Fri May 05 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-04T18:34:36.491Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453fb1185cfaab0e4e65958"
+  },
+  "title": "'e2fregt' has been created",
+  "description": "'The task 'e2fregt' has been created and is unassigned  and is due on Mon May 08 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-04T18:36:01.024Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453fbb0fdc79c5714de8e48"
+  },
+  "title": "'dfwghnj' has been created",
+  "description": "'The task 'dfwghnj' has been created and is unassigned  and is due on Fri May 05 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-04T18:38:40.739Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453fbbdfdc79c5714de8e4c"
+  },
+  "title": "'jhgfd' has been created",
+  "description": "'The task 'jhgfd' has been created and is unassigned  and is due on Sun May 07 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-04T18:38:53.843Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6453fbfbfdc79c5714de8e54"
+  },
+  "title": "'asdfgbh' has been created",
+  "description": "'The task 'asdfgbh' has been created and is unassigned  and is due on Sun May 07 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-04T18:39:55.993Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6454017cfdc79c5714de8e5b"
+  },
+  "title": "Task 'practice chess' is overdue!",
+  "description": "The task 'practice chess', assigned to Magnus, was due on 2023-05-04T18:34:57.567Z and is now overdue!",
+  "createdAt": "2023-05-04T19:03:24.096Z",
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": true
+},{
+  "_id": {
+    "$oid": "64545c5bbcffd8a88d788732"
+  },
+  "title": "'Take out the trash' has been created",
+  "description": "'The task 'Take out the trash' has been created and is unassigned  and is due on Sun May 07 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-05T01:31:07.339Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "64545ce1bcffd8a88d788735"
+  },
+  "title": "The reward 'test' has been claimed!",
+  "description": "Magnus has claimed 'test' for 15 points",
+  "createdAt": {
+    "$date": "2023-05-05T01:33:21.973Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "64545ce2bcffd8a88d788737"
+  },
+  "title": "The reward 'test' has been claimed!",
+  "description": "Magnus has claimed 'test' for 15 points",
+  "createdAt": {
+    "$date": "2023-05-05T01:33:22.114Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "64545d27bcffd8a88d78873e"
+  },
+  "title": "The reward 'test3434' has been claimed!",
+  "description": "Hikaru has claimed 'test3434' for 1 points",
+  "createdAt": {
+    "$date": "2023-05-05T01:34:31.506Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a62c868fc6fa09b72d40"
+  },
+  "title": "The reward 'test' has been claimed!",
+  "description": "Magnus has claimed 'test' for 15 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:10:36.814Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a820868fc6fa09b72d48"
+  },
+  "title": "'Mow the lawn' has been created",
+  "description": "'The task 'Mow the lawn' has been created and is unassigned  and is due on Mon May 08 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:18:56.561Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a820868fc6fa09b72d4a"
+  },
+  "title": "'Mow the lawn' has been created",
+  "description": "'The task 'Mow the lawn' has been created and is unassigned  and is due on Mon May 08 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:18:56.586Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a820868fc6fa09b72d4b"
+  },
+  "title": "'Mow the lawn' has been created",
+  "description": "'The task 'Mow the lawn' has been created and is unassigned  and is due on Mon May 08 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:18:56.602Z"
+  },
+  "userId": "6456a7bd868fc6fa09b72d46",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a846868fc6fa09b72d4c"
+  },
+  "title": "The task 'practice chess' has been completed",
+  "description": "Magnus has completed 'practice chess' and been awarded 5 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:19:34.211Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a857868fc6fa09b72d4d"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Magnus has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:19:51.243Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a857868fc6fa09b72d4f"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Magnus has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:19:51.270Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a857868fc6fa09b72d50"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Magnus has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:19:51.290Z"
+  },
+  "userId": "6456a7bd868fc6fa09b72d46",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a857868fc6fa09b72d51"
+  },
+  "title": "Task 'practice chess' is overdue!",
+  "description": "The task 'practice chess', assigned to Magnus, was due on 2023-05-06T19:19:34.163Z and is now overdue!",
+  "createdAt": {
+    "$date": "2023-05-06T19:19:51.384Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a96649dfb7f128d785f3"
+  },
+  "title": "'practice chess' has been created",
+  "description": "'The task 'practice chess' has been created and is assigned to Hikaru and is due on Sun May 07 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:24:22.155Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a96649dfb7f128d785f4"
+  },
+  "title": "'practice chess' has been created",
+  "description": "'The task 'practice chess' has been created and is assigned to Hikaru and is due on Sun May 07 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": "2023-05-06T19:24:22.176Z",
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": true
+},{
+  "_id": {
+    "$oid": "6456a9ac49dfb7f128d785f6"
+  },
+  "title": "'Do the dishes' has been created",
+  "description": "'The task 'Do the dishes' has been created and is assigned to Hikaru and is due on Sat May 06 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:25:32.389Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456a9dd49dfb7f128d785f8"
+  },
+  "title": "Task 'Do the dishes' is overdue!",
+  "description": "The task 'Do the dishes', assigned to Hikaru, was due on 2023-05-06T19:25:32.353Z and is now overdue!",
+  "createdAt": {
+    "$date": "2023-05-06T19:26:21.904Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa3d49dfb7f128d785fa"
+  },
+  "title": "Task 'Do the dishes' is overdue!",
+  "description": "The task 'Do the dishes', assigned to Hikaru, was due on 2023-05-06T19:25:32.353Z and is now overdue!",
+  "createdAt": {
+    "$date": "2023-05-06T19:27:57.300Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa3d49dfb7f128d785fb"
+  },
+  "title": "Task 'Do the dishes' is overdue!",
+  "description": "The task 'Do the dishes', assigned to Hikaru, was due on 2023-05-06T19:25:32.353Z and is now overdue!",
+  "createdAt": "2023-05-06T19:27:57.320Z",
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": true
+},{
+  "_id": {
+    "$oid": "6456aa6e49dfb7f128d785fc"
+  },
+  "title": "The task 'practice chess' has been completed",
+  "description": "Hikaru has completed 'practice chess' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:28:46.013Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa6e49dfb7f128d785fd"
+  },
+  "title": "The task 'practice chess' has been completed",
+  "description": "Hikaru has completed 'practice chess' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:28:46.036Z"
+  },
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa7949dfb7f128d785fe"
+  },
+  "title": "The task 'Do the dishes' has been completed",
+  "description": "Hikaru has completed 'Do the dishes' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:28:57.973Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa7949dfb7f128d785ff"
+  },
+  "title": "The task 'Do the dishes' has been completed",
+  "description": "Hikaru has completed 'Do the dishes' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:28:57.989Z"
+  },
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9249dfb7f128d78600"
+  },
+  "title": "The task 'Mow the lawn' has been completed",
+  "description": "Hikaru has completed 'Mow the lawn' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:22.202Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9249dfb7f128d78601"
+  },
+  "title": "The task 'Mow the lawn' has been completed",
+  "description": "Hikaru has completed 'Mow the lawn' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:22.216Z"
+  },
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9549dfb7f128d78602"
+  },
+  "title": "The task 'Do the dishes' has been completed",
+  "description": "Hikaru has completed 'Do the dishes' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:25.941Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9549dfb7f128d78603"
+  },
+  "title": "The task 'Do the dishes' has been completed",
+  "description": "Hikaru has completed 'Do the dishes' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:25.953Z"
+  },
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9649dfb7f128d78604"
+  },
+  "title": "The task 'Do the dishes' has been completed",
+  "description": "Hikaru has completed 'Do the dishes' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:26.332Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9649dfb7f128d78605"
+  },
+  "title": "The task 'Do the dishes' has been completed",
+  "description": "Hikaru has completed 'Do the dishes' and been awarded 3 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:26.347Z"
+  },
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9e49dfb7f128d78606"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Hikaru has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:34.454Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9e49dfb7f128d78607"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Hikaru has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:34.466Z"
+  },
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9e49dfb7f128d78608"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Hikaru has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:34.480Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aa9e49dfb7f128d78609"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Hikaru has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-06T19:29:34.492Z"
+  },
+  "userId": "6456a7bd868fc6fa09b72d46",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456aacd49dfb7f128d7860a"
+  },
+  "title": "Task 'practice chess' is overdue!",
+  "description": "The task 'practice chess', assigned to Magnus, was due on 2023-05-06T19:19:34.163Z and is now overdue!",
+  "createdAt": {
+    "$date": "2023-05-06T19:30:21.895Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456ab0349dfb7f128d7860c"
+  },
+  "title": "'Take out the trash' has been created",
+  "description": "'The task 'Take out the trash' has been created and is unassigned  and is due on Tue May 09 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:31:15.996Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456ab0449dfb7f128d7860d"
+  },
+  "title": "'Take out the trash' has been created",
+  "description": "'The task 'Take out the trash' has been created and is unassigned  and is due on Tue May 09 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:31:16.006Z"
+  },
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456ab0449dfb7f128d7860e"
+  },
+  "title": "'Take out the trash' has been created",
+  "description": "'The task 'Take out the trash' has been created and is unassigned  and is due on Tue May 09 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:31:16.023Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6456ab0449dfb7f128d7860f"
+  },
+  "title": "'Take out the trash' has been created",
+  "description": "'The task 'Take out the trash' has been created and is unassigned  and is due on Tue May 09 2023 17:00:00 GMT-0700 (Pacific Daylight Time)",
+  "createdAt": {
+    "$date": "2023-05-06T19:31:16.037Z"
+  },
+  "userId": "6456a7bd868fc6fa09b72d46",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "645865435bc06855e38245e1"
+  },
+  "title": "Task 'practice chess' is overdue!",
+  "description": "The task 'practice chess', assigned to Magnus, was due on 2023-05-06T19:19:34.163Z and is now overdue!",
+  "createdAt": {
+    "$date": "2023-05-08T02:58:11.539Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "64586577aca291beea9559f0"
+  },
+  "title": "The task 'practice chess part 4' has been completed",
+  "description": "Magnus has completed 'practice chess part 4' and been awarded 5 points",
+  "createdAt": {
+    "$date": "2023-05-08T02:59:03.794Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "64586579aca291beea9559f1"
+  },
+  "title": "The task 'practice chess' has been completed",
+  "description": "Magnus has completed 'practice chess' and been awarded 5 points",
+  "createdAt": {
+    "$date": "2023-05-08T02:59:05.084Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6458657daca291beea9559f2"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Magnus has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-08T02:59:09.071Z"
+  },
+  "userId": "644f3af3b9b913d30bf879b3",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6458657daca291beea9559f3"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Magnus has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-08T02:59:09.083Z"
+  },
+  "userId": "644f3d831bb14d132ea40cde",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6458657daca291beea9559f4"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Magnus has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-08T02:59:09.092Z"
+  },
+  "userId": "644f42f8f54c76a92ecd2011",
+  "isRead": false
+},{
+  "_id": {
+    "$oid": "6458657daca291beea9559f5"
+  },
+  "title": "The reward 'New Chess board' has been claimed!",
+  "description": "Magnus has claimed 'New Chess board' for 30 points",
+  "createdAt": {
+    "$date": "2023-05-08T02:59:09.104Z"
+  },
+  "userId": "6456a7bd868fc6fa09b72d46",
+  "isRead": false
+}]

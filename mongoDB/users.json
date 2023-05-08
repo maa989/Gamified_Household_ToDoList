@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b4916b"
+  },
+  "email": "johndoe@example.com",
+  "password": "password1",
+  "firstName": "John",
+  "lastName": "Doe",
+  "householdId": "613fde5b5a4b4f2c4f10d7a1",
+  "points": 100,
+  "isTaskManager": true
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b4916c"
+  },
+  "email": "janedoe@example.com",
+  "password": "password2",
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "householdId": "613fde5b5a4b4f2c4f10d7a1",
+  "points": 50,
+  "isTaskManager": true
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b4916d"
+  },
+  "email": "bobsmith@example.com",
+  "password": "password3",
+  "firstName": "Bob",
+  "lastName": "Smith",
+  "householdId": "613fde5b5a4b4f2c4f10d7a1",
+  "points": 0,
+  "isTaskManager": false
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b4916e"
+  },
+  "email": "sarahjones@example.com",
+  "password": "password4",
+  "firstName": "Sarah",
+  "lastName": "Jones",
+  "householdId": "613fde5b5a4b4f2c4f10d7a1",
+  "points": 75,
+  "isTaskManager": false
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b4916f"
+  },
+  "email": "mikelee@example.com",
+  "password": "password5",
+  "firstName": "Mike",
+  "lastName": "Lee",
+  "householdId": "613fde5b5a4b4f2c4f10d7a1",
+  "points": 25,
+  "isTaskManager": false
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b49170"
+  },
+  "email": "jennawang@example.com",
+  "password": "password6",
+  "firstName": "Jenna",
+  "lastName": "Wang",
+  "householdId": "613fde5b5a4b4f2c4f10d7a1",
+  "points": 90,
+  "isTaskManager": true
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b49171"
+  },
+  "email": "timcook@example.com",
+  "password": "password7",
+  "firstName": "Tim",
+  "lastName": "Cook",
+  "householdId": "613fde5b5a4b4f2c4f10d7a2",
+  "points": 150,
+  "isTaskManager": false
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b49172"
+  },
+  "email": "elonmusk@example.com",
+  "password": "password8",
+  "firstName": "Elon",
+  "lastName": "Musk",
+  "householdId": "613fde5b5a4b4f2c4f10d7a2",
+  "points": 200,
+  "isTaskManager": true
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b49173"
+  },
+  "email": "billgates@example.com",
+  "password": "password9",
+  "firstName": "Bill",
+  "lastName": "Gates",
+  "householdId": "613fde5b5a4b4f2c4f10d7a2",
+  "points": 75,
+  "isTaskManager": true
+},{
+  "_id": {
+    "$oid": "644f0cd45d0e2eed40b49174"
+  },
+  "email": "markzuckerberg@example.com",
+  "password": "password10",
+  "firstName": "Mark",
+  "lastName": "Zuckerberg",
+  "householdId": "613fde5b5a4b4f2c4f10d7a2",
+  "points": 100,
+  "isTaskManager": false
+},{
+  "_id": {
+    "$oid": "644f3af3b9b913d30bf879b3"
+  },
+  "email": "mgncr@gmail.com",
+  "password": "testpass",
+  "firstName": "Magnus",
+  "lastName": "Carlson",
+  "householdId": "644f3af3b9b913d30bf879b2",
+  "points": 19,
+  "isTaskManager": true
+},{
+  "_id": {
+    "$oid": "644f3d831bb14d132ea40cde"
+  },
+  "email": "hnik@gmail.com",
+  "password": "testpass2",
+  "firstName": "Hikaru",
+  "lastName": "Nakamura",
+  "householdId": "644f3af3b9b913d30bf879b2",
+  "points": 2,
+  "isTaskManager": false
+},{
+  "_id": {
+    "$oid": "644f42f8f54c76a92ecd2011"
+  },
+  "email": "test50@gmail.com",
+  "password": "231144",
+  "firstName": "testacre",
+  "lastName": "tese",
+  "householdId": "644f3af3b9b913d30bf879b2",
+  "points": 41,
+  "isTaskManager": false
+}]

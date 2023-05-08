@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "644f142b5d0e2eed40b4918f"
+  },
+  "name": "Free Pizza",
+  "points": 50,
+  "householdId": "613fde5b5a4b4f2c4f10d7a1"
+},{
+  "_id": {
+    "$oid": "644f142b5d0e2eed40b49190"
+  },
+  "name": "Movie Night",
+  "points": 100,
+  "householdId": "613fde5b5a4b4f2c4f10d7a1"
+},{
+  "_id": {
+    "$oid": "644f142b5d0e2eed40b49191"
+  },
+  "name": "Game Night",
+  "points": 75,
+  "householdId": "613fde5b5a4b4f2c4f10d7a2"
+},{
+  "_id": {
+    "$oid": "644f142b5d0e2eed40b49192"
+  },
+  "name": "Dinner Out",
+  "points": 125,
+  "householdId": "613fde5b5a4b4f2c4f10d7a2"
+},{
+  "_id": {
+    "$oid": "6451659ed7d816620bf3bf90"
+  },
+  "name": "New Chess board",
+  "points": 30,
+  "householdId": "644f3af3b9b913d30bf879b2"
+},{
+  "_id": {
+    "$oid": "64531a386e29c2c4bb14cade"
+  },
+  "name": "test",
+  "points": "15",
+  "householdId": "644f3af3b9b913d30bf879b2"
+},{
+  "_id": {
+    "$oid": "6456ab1949dfb7f128d78610"
+  },
+  "name": "Movie night",
+  "points": 10,
+  "householdId": "644f3af3b9b913d30bf879b2"
+}]
